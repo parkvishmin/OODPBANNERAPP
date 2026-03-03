@@ -1,6 +1,17 @@
-public class UC1{
-
+public class OOPBannerStars {
     public static void main(String[] args) {
-        System.out.println("OOPS");
+        String[] banner = {
+            "  ***    ***    ****  ",
+            " *   *  *   *  *   * ",
+            "*     **     * *   * ",
+            "*     **     * ****  ",
+            "*     **     * *     ",
+            " *   *  *   *  *     ",
+            "  ***    ***   *     "
+        };
+
+        for (String line : banner) {
+            System.out.println(line);
+        }
     }
 }
