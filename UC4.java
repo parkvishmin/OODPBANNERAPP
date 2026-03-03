@@ -1,6 +1,27 @@
-public class UC1{
+public class us4bannerapp {
+
+    static void printO() {
+        System.out.println(" ***** ");
+        System.out.println("*     *");
+        System.out.println("*     *");
+        System.out.println("*     *");
+        System.out.println(" ***** ");
+        System.out.println();
+    }
+
+    static void printP() {
+        System.out.println(" ****** ");
+        System.out.println("*      *");
+        System.out.println(" ****** ");
+        System.out.println("*");
+        System.out.println("*");
+        System.out.println();
+    }
 
     public static void main(String[] args) {
-        System.out.println("OOPS");
+        printO();
+        printO();
+        printP();
+        
     }
 }
